@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "algovoi-keystone"
+version = "0.1.0"
+description = "Verify that an agentic-action keystone chain composes end to end (RFC 8785 JCS + SHA-256, offline). The composition layer no receipt checker has."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "Apache-2.0"
+authors = [{ name = "AlgoVoi", email = "chopmob@gmail.com" }]
+keywords = ["keystone", "jcs", "rfc8785", "agent", "governance", "conformance", "composition", "audit"]
+dependencies = ["algovoi-substrate>=0.5.1", "rfc8785>=0.1.2"]
+
+[project.urls]
+Homepage = "https://github.com/chopmob-cloud/algovoi-keystone-alias"
+Substrate = "https://docs.algovoi.co.uk/keystone"
+
+[project.scripts]
+keystone = "algovoi_keystone.cli:main"
+
+[tool.setuptools]
+packages = ["algovoi_keystone"]

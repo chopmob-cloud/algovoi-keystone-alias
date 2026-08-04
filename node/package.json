@@ -1,0 +1,30 @@
+{
+  "name": "@algovoi/keystone",
+  "version": "0.1.0",
+  "description": "Verify that an agentic-action keystone chain composes end to end (RFC 8785 JCS + SHA-256, offline). The composition layer no receipt checker has.",
+  "type": "module",
+  "main": "keystone.mjs",
+  "bin": {
+    "keystone": "keystone.mjs"
+  },
+  "files": [
+    "keystone.mjs"
+  ],
+  "scripts": {
+    "verify": "node keystone.mjs verify"
+  },
+  "dependencies": {
+    "@algovoi/substrate": "^0.5.1"
+  },
+  "license": "Apache-2.0",
+  "author": "AlgoVoi",
+  "keywords": [
+    "keystone",
+    "jcs",
+    "rfc8785",
+    "agent",
+    "governance",
+    "conformance",
+    "composition"
+  ]
+}
