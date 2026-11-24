@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "algovoi-keystone"
+name = "algovoi-keystone-alias"
 version = "0.1.0"
 description = "Verify that an agentic-action keystone chain composes end to end (RFC 8785 JCS + SHA-256, offline). The composition layer no receipt checker has."
 readme = "README.md"
