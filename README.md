@@ -3,7 +3,6 @@ public repo. -->
 
 # AlgoVoi Keystone (L2): compose agentic-trust chains, verify them offline
 
-
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 
 **One command proves an agentic-action keystone chain composes end to end.**
